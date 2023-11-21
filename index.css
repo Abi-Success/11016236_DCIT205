@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    width: 100%;
+    background-color: rgb(22, 105, 73);
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 90px;
+}
+
+.logo1{
+    width: 600px;
+    display: inline-block;
+    
+}
+
+img{
+    padding-top: 0px;
+    padding-left: 40px;
+    width: 80px;
+}
+
+.logo-text {
+    position: relative;
+    margin-left: 130px;
+    margin-top: -85px;
+    font-size: 28px;
+    width: 300px;
+    font-weight: 800;
+    vertical-align: top;
+    color: rgb(201, 157, 14);
+
+}
+
+.items{
+    display: inline-block;
+    width: auto;
+}
+
+.items li{
+    display: inline-block;
+    margin-right: 20px;
+    font-style: oblique;
+    font-size: 20px;
+    font-weight: 800;
+    padding-right: 40px;
+    color: rgb(177, 139, 14);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: color 4s text-decoration 1s ease;
+}
+
+.items li:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+    
+}
+
+.firstpage{
+    position: absolute;
+    text-align: center;
+    font-size: 40px;
+    width: 900px;
+    font-weight: 700;
+    top: 300px;
+    left: 300px;
+}
+
+.firstpage .btn{
+    position: absolute;
+    width: 250px;
+    height: 60px;
+    background-color: transparent;
+    border-radius: 20px;
+    border: 3px solid  rgb(85, 214, 102);
+    margin-top: 20px;
+    margin-left: -130px;
+}
+
+.firstpage .btn a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.firstpage .btn:hover, .firstpage .btn a:hover{
+    background-color:  rgb(85, 214, 139);
+    color: white;
+}
+
+.course{
+    position: absolute;
+    top: 750px;
+    
+}
+
+.course .course-title {
+    left: 650px;
+    position: absolute;
+    width: 600px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.course .course-box1 {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 70px;
+    overflow: scroll;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
+
+.course .course-box1 .course-head {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.course .course-box2 {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    left: 600px;
+    top: -145px;
+    overflow: scroll;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
+
+.course .course-box2 .course-head {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.course .course-box3 {
+    width: 350px;
+    height: 200px;
+    position: relative;
+    left: 1100px;
+    top: -360px;
+    overflow: scroll;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: antiquewhite;
+}
+
+.course .course-box3 .course-head {
+    font-size: 24px;
+    font-weight: 700;
+    padding-bottom: 20px;
+}
+
+.facility .facility-title {
+    left: 650px;
+    position: absolute;
+    width: 600px;
+    font-size: 30px;
+    font-weight: 700;
+    top: 1200px;
+}
+
+.facility .fac {
+    font-size: 16px;
+    width: 700px;
+    left: 450px;
+    top: 1130px;
+    position: relative;
+}
+
+.facility .facility-box1{
+    border: 4px solid green;
+    width: 350px;
+    height: 260px;
+    position: absolute;
+    left: 100px;
+    top: 1290px;
+}
+
+.facility .fac-box1 {
+    top: 1570px;
+    position: absolute;
+    left: 210px;
+}
+
+.facility .facility-box2{
+    border: 4px solid rgb(0, 51, 128);
+    width: 350px;
+    height: 260px;
+    position: absolute;
+    top: 1290px;
+    left: 600px;
+}
+
+.facility .facility-box3{
+    border: 4px solid rgb(128, 77, 0);
+    width: 350px;
+    height: 260px;
+    position: absolute;
+    left: 1100px;
+    top: 1290px;
+}
+
+.facility .fac-box2 {
+    top: 1570px;
+    position: absolute;
+    left: 720px;
+}
+.facility .fac-box3 {
+    top: 1570px;
+    position: absolute;
+    left: 1220px;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 1700px;
+    height: 40px;
+}
+
+.footer {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
