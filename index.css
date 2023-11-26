@@ -94,13 +94,13 @@ img{
     color: white;
 }
 
-.course{
+.coursed{
     position: absolute;
     top: 750px;
     
 }
 
-.course .course-title {
+.coursed .course-title {
     left: 650px;
     position: absolute;
     width: 600px;
@@ -108,7 +108,7 @@ img{
     font-weight: 700;
 }
 
-.course .course-box1 {
+.coursed .course-box1 {
     width: 350px;
     height: 200px;
     position: relative;
@@ -120,13 +120,13 @@ img{
     background-color: antiquewhite;
 }
 
-.course .course-box1 .course-head {
+.coursed .course-box1 .course-head {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 20px;
 }
 
-.course .course-box2 {
+.coursed .course-box2 {
     width: 350px;
     height: 200px;
     position: relative;
@@ -138,13 +138,13 @@ img{
     background-color: antiquewhite;
 }
 
-.course .course-box2 .course-head {
+.coursed .course-box2 .course-head {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 20px;
 }
 
-.course .course-box3 {
+.coursed .course-box3 {
     width: 350px;
     height: 200px;
     position: relative;
@@ -156,7 +156,7 @@ img{
     background-color: antiquewhite;
 }
 
-.course .course-box3 .course-head {
+.coursed .course-box3 .course-head {
     font-size: 24px;
     font-weight: 700;
     padding-bottom: 20px;
@@ -433,4 +433,65 @@ button a{
     width: 450px;
     margin-top: 120px;
     margin-right: 90px;
+}
+
+.adminhead {
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.hod h3{
+    margin-left: 750px;
+    margin-top: 40px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.hod img {
+    width: 400px;
+    border-radius: 30px;
+    margin-left: 600px;
+}
+
+.hod p{
+    margin-left: 730px;
+    font-size: 23px;
+    margin-top: 10px;
+}
+
+.tp{
+    font-size: 35px;
+    margin-left: 480px;
+    margin-top: 40px;
+}
+
+.lect img{
+    width: 420px;
+    border-radius: 30px;
+    margin-top: 80px;
+    margin-left: 120px;
+}
+
+.lect p{
+    margin-left: 240px;
+    font-size: 27px;
+}
+
+.lect1 img{
+    width: 420px;
+    border-radius: 30px;
+    margin-top: -480px;
+    margin-left: 920px;
+    position: absolute;
+}
+
+.lect1 p{
+    margin-left: 1050px;
+    font-size: 27px;
+}
+
+.adminnote {
+    margin: 40px 40px;
+    font-size: 24px;
 }
